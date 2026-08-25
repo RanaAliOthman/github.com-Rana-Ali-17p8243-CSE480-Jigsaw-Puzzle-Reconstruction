@@ -1,0 +1,210 @@
+{
+  "grid_inferred": [
+    5,
+    7
+  ],
+  "complete": true,
+  "search_objective": 1713.2439223163287,
+  "quality": {
+    "seams_realised": 58,
+    "seams_expected": 58,
+    "seams_violating_the_shape_gate": 0,
+    "mean_seam_cost": 23.401855056677796,
+    "median_seam_cost": 17.470531137605402,
+    "best_partner_fraction": 0.31896551724137934,
+    "mutual_best_fraction": 0.1724137931034483,
+    "quality_score": 0.1724137931034483
+  },
+  "diagnostics": {
+    "unfilled_cells": 0,
+    "grid_inferred": [
+      5,
+      7
+    ],
+    "beam_width": 10000,
+    "per_state": 16,
+    "flat_weight": 1.0,
+    "cell_order": "raster",
+    "typical_seam_cost": 44.13954163481857,
+    "gate_penalty_factor": 10.0
+  },
+  "placements": [
+    {
+      "cell": 0,
+      "piece_id": 35,
+      "rotation": 3
+    },
+    {
+      "cell": 1,
+      "piece_id": 21,
+      "rotation": 0
+    },
+    {
+      "cell": 2,
+      "piece_id": 8,
+      "rotation": 1
+    },
+    {
+      "cell": 3,
+      "piece_id": 6,
+      "rotation": 1
+    },
+    {
+      "cell": 4,
+      "piece_id": 31,
+      "rotation": 2
+    },
+    {
+      "cell": 5,
+      "piece_id": 30,
+      "rotation": 3
+    },
+    {
+      "cell": 6,
+      "piece_id": 7,
+      "rotation": 3
+    },
+    {
+      "cell": 7,
+      "piece_id": 28,
+      "rotation": 2
+    },
+    {
+      "cell": 8,
+      "piece_id": 27,
+      "rotation": 2
+    },
+    {
+      "cell": 9,
+      "piece_id": 26,
+      "rotation": 3
+    },
+    {
+      "cell": 10,
+      "piece_id": 25,
+      "rotation": 1
+    },
+    {
+      "cell": 11,
+      "piece_id": 24,
+      "rotation": 1
+    },
+    {
+      "cell": 12,
+      "piece_id": 23,
+      "rotation": 0
+    },
+    {
+      "cell": 13,
+      "piece_id": 22,
+      "rotation": 0
+    },
+    {
+      "cell": 14,
+      "piece_id": 4,
+      "rotation": 2
+    },
+    {
+      "cell": 15,
+      "piece_id": 20,
+      "rotation": 3
+    },
+    {
+      "cell": 16,
+      "piece_id": 19,
+      "rotation": 3
+    },
+    {
+      "cell": 17,
+      "piece_id": 18,
+      "rotation": 0
+    },
+    {
+      "cell": 18,
+      "piece_id": 17,
+      "rotation": 3
+    },
+    {
+      "cell": 19,
+      "piece_id": 16,
+      "rotation": 3
+    },
+    {
+      "cell": 20,
+      "piece_id": 15,
+      "rotation": 0
+    },
+    {
+      "cell": 21,
+      "piece_id": 14,
+      "rotation": 2
+    },
+    {
+      "cell": 22,
+      "piece_id": 13,
+      "rotation": 0
+    },
+    {
+      "cell": 23,
+      "piece_id": 12,
+      "rotation": 3
+    },
+    {
+      "cell": 24,
+      "piece_id": 11,
+      "rotation": 2
+    },
+    {
+      "cell": 25,
+      "piece_id": 10,
+      "rotation": 1
+    },
+    {
+      "cell": 26,
+      "piece_id": 9,
+      "rotation": 2
+    },
+    {
+      "cell": 27,
+      "piece_id": 33,
+      "rotation": 1
+    },
+    {
+      "cell": 28,
+      "piece_id": 29,
+      "rotation": 3
+    },
+    {
+      "cell": 29,
+      "piece_id": 34,
+      "rotation": 0
+    },
+    {
+      "cell": 30,
+      "piece_id": 1,
+      "rotation": 3
+    },
+    {
+      "cell": 31,
+      "piece_id": 32,
+      "rotation": 0
+    },
+    {
+      "cell": 32,
+      "piece_id": 3,
+      "rotation": 3
+    },
+    {
+      "cell": 33,
+      "piece_id": 2,
+      "rotation": 1
+    },
+    {
+      "cell": 34,
+      "piece_id": 5,
+      "rotation": 1
+    }
+  ],
+  "runtime_seconds": 47.05957121299798,
+  "output": "results/reconstructed_images/reconstruction.png"
+}

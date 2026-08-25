@@ -1,0 +1,109 @@
+{
+  "sources": {
+    "siamese": "results/evaluation_results/siamese_training.json",
+    "gnn": "results/evaluation_results/gnn_training.json"
+  },
+  "protocol": "One 5x7 puzzle. A 2x4 block of cells is held out; every true seam inside it is scored against the same gated candidate set by every measure, through ml/ranking.py. Rank 1 means the true partner scored best.",
+  "held_out_cells": [
+    24,
+    25,
+    26,
+    27,
+    31,
+    32,
+    33,
+    34
+  ],
+  "pairs_scored": 20,
+  "training_set_size": {
+    "positives": 84,
+    "negatives": 672
+  },
+  "models": {
+    "siamese": {
+      "epochs": 500,
+      "parameters": 22870,
+      "training_seconds": 60.3,
+      "device": "cuda",
+      "hyperparameters": {
+        "optimiser": "Adam",
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "loss": "BCEWithLogits, pos_weight=8.0",
+        "augmentation": null
+      },
+      "best_epoch": 223,
+      "best_valid_loss": 0.5200489163398743,
+      "final_valid_loss": 7.611891746520996,
+      "final_recall_on_true_seams": 0.4000000059604645,
+      "rank_final_epoch": {
+        "pairs_scored": 20,
+        "rank1": 0.4,
+        "top3": 0.7,
+        "median_rank": 2.0
+      },
+      "rank_best_valid": null,
+      "trained_heads": [
+        "neighbor_logit"
+      ],
+      "untrained_heads": [
+        "orientation_logits",
+        "compatibility"
+      ]
+    },
+    "gnn": {
+      "epochs": 500,
+      "parameters": 126918,
+      "training_seconds": 94.2,
+      "device": "cuda",
+      "hyperparameters": {
+        "optimiser": "Adam",
+        "learning_rate": 0.001,
+        "batch": "32 edges per step, message passing over the full 756-edge graph",
+        "loss": "BCEWithLogits, pos_weight=8.0",
+        "hidden": 64,
+        "message_passing_layers": 3,
+        "augmentation": null
+      },
+      "best_epoch": 225,
+      "best_valid_loss": 0.6619095802307129,
+      "final_valid_loss": 8.842977523803711,
+      "final_recall_on_true_seams": 0.20000000298023224,
+      "rank_final_epoch": {
+        "pairs_scored": 20,
+        "rank1": 0.4,
+        "top3": 0.7,
+        "median_rank": 2.0
+      },
+      "rank_best_valid": {
+        "pairs_scored": 20,
+        "rank1": 0.6,
+        "top3": 0.8,
+        "median_rank": 1.0
+      },
+      "trained_heads": [
+        "neighbor_logit"
+      ],
+      "untrained_heads": [
+        "orientation_logits",
+        "compatibility"
+      ]
+    }
+  },
+  "classical_mgc": {
+    "pairs_scored": 20,
+    "rank1": 0.55,
+    "top3": 0.8,
+    "median_rank": 1.0
+  },
+  "best_measure": {
+    "name": "gnn (best-validation checkpoint)",
+    "rank1": 0.6
+  },
+  "caveats": [
+    "One puzzle, 84 training positives. Rank figures are over the held-out block only and are not comparable to the 46.6% MGC figure measured against all 140 sides.",
+    "Only 20 pairs are scored, so one pair is 5 percentage points. Differences of this size are not statistically meaningful.",
+    "Only the neighbour head is trained in either model; the orientation and compatibility outputs are at random initialisation and must not be reported.",
+    "No model score has been passed to the assembly algorithm, so no learned reconstruction, position accuracy or quality score exists."
+  ]
+}

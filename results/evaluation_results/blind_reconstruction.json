@@ -1,0 +1,66 @@
+{
+  "grid_inferred": [
+    5,
+    7
+  ],
+  "complete": true,
+  "search_cost": 1713.2439223163287,
+  "quality": {
+    "seams_realised": 58,
+    "seams_expected": 58,
+    "seams_violating_the_shape_gate": 0,
+    "mean_seam_cost": 23.401855056677796,
+    "median_seam_cost": 17.470531137605402,
+    "best_partner_fraction": 0.31896551724137934,
+    "mutual_best_fraction": 0.1724137931034483,
+    "quality_score": 0.1724137931034483
+  },
+  "diagnostics": {
+    "unfilled_cells": 0,
+    "grid_inferred": [
+      5,
+      7
+    ],
+    "beam_width": 10000,
+    "per_state": 16,
+    "flat_weight": 1.0,
+    "cell_order": "raster",
+    "typical_seam_cost": 44.13954163481857,
+    "gate_penalty_factor": 10.0
+  },
+  "runtime_seconds": 31.767722529999446,
+  "output": "results/reconstructed_images/blind_reconstruction.png",
+  "accuracy": {
+    "as_placed": {
+      "position_accuracy": 0.11428571428571428,
+      "orientation_accuracy": 0.08571428571428572,
+      "neighbour_accuracy": 0.5862068965517241,
+      "complete_reconstruction": 0.0,
+      "position_hits": 4,
+      "orientation_hits": 3,
+      "neighbour_hits": 34,
+      "neighbour_total": 58
+    },
+    "rotated_180": {
+      "position_accuracy": 0.6857142857142857,
+      "orientation_accuracy": 0.6571428571428571,
+      "neighbour_accuracy": 0.5862068965517241,
+      "complete_reconstruction": 0.0,
+      "position_hits": 24,
+      "orientation_hits": 23,
+      "neighbour_hits": 34,
+      "neighbour_total": 58
+    },
+    "reported": {
+      "position_accuracy": 0.6857142857142857,
+      "orientation_accuracy": 0.6571428571428571,
+      "neighbour_accuracy": 0.5862068965517241,
+      "complete_reconstruction": 0.0,
+      "position_hits": 24,
+      "orientation_hits": 23,
+      "neighbour_hits": 34,
+      "neighbour_total": 58
+    },
+    "reported_orientation": "rotated 180 degrees"
+  }
+}

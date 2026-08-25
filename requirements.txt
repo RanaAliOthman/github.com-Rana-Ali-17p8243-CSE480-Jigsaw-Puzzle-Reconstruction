@@ -1,0 +1,10 @@
+numpy>=1.21
+opencv-python>=4.5
+matplotlib>=3.5
+torch>=2.0
+PyYAML>=5.4
+pytest>=6.2
+nbformat>=5.0
+nbclient>=0.8
+ipykernel>=6.0
+

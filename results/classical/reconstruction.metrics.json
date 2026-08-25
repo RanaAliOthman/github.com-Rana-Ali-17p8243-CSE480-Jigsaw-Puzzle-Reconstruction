@@ -1,0 +1,195 @@
+{
+  "metric_notice": "Compatibility is not reconstruction accuracy.",
+  "pieces_detected": 35,
+  "pieces_placed": 35,
+  "unique_pieces": 35,
+  "grid": [
+    5,
+    7
+  ],
+  "edge_compatibility_dissimilarity": 21399.840423947426,
+  "runtime_seconds": 19.489959491999798,
+  "ground_truth_available": false,
+  "neighbor_accuracy": null,
+  "position_accuracy": null,
+  "orientation_accuracy": null,
+  "complete_reconstruction_accuracy": null,
+  "output": "results/classical/reconstruction.png",
+  "placements": [
+    {
+      "position": 0,
+      "piece_id": 8,
+      "rotation": 0
+    },
+    {
+      "position": 1,
+      "piece_id": 2,
+      "rotation": 3
+    },
+    {
+      "position": 2,
+      "piece_id": 3,
+      "rotation": 2
+    },
+    {
+      "position": 3,
+      "piece_id": 6,
+      "rotation": 2
+    },
+    {
+      "position": 4,
+      "piece_id": 14,
+      "rotation": 0
+    },
+    {
+      "position": 5,
+      "piece_id": 32,
+      "rotation": 0
+    },
+    {
+      "position": 6,
+      "piece_id": 29,
+      "rotation": 3
+    },
+    {
+      "position": 7,
+      "piece_id": 22,
+      "rotation": 0
+    },
+    {
+      "position": 8,
+      "piece_id": 27,
+      "rotation": 3
+    },
+    {
+      "position": 9,
+      "piece_id": 10,
+      "rotation": 0
+    },
+    {
+      "position": 10,
+      "piece_id": 16,
+      "rotation": 3
+    },
+    {
+      "position": 11,
+      "piece_id": 9,
+      "rotation": 0
+    },
+    {
+      "position": 12,
+      "piece_id": 23,
+      "rotation": 3
+    },
+    {
+      "position": 13,
+      "piece_id": 33,
+      "rotation": 2
+    },
+    {
+      "position": 14,
+      "piece_id": 15,
+      "rotation": 1
+    },
+    {
+      "position": 15,
+      "piece_id": 26,
+      "rotation": 0
+    },
+    {
+      "position": 16,
+      "piece_id": 20,
+      "rotation": 2
+    },
+    {
+      "position": 17,
+      "piece_id": 12,
+      "rotation": 1
+    },
+    {
+      "position": 18,
+      "piece_id": 11,
+      "rotation": 1
+    },
+    {
+      "position": 19,
+      "piece_id": 24,
+      "rotation": 0
+    },
+    {
+      "position": 20,
+      "piece_id": 7,
+      "rotation": 3
+    },
+    {
+      "position": 21,
+      "piece_id": 5,
+      "rotation": 0
+    },
+    {
+      "position": 22,
+      "piece_id": 17,
+      "rotation": 1
+    },
+    {
+      "position": 23,
+      "piece_id": 18,
+      "rotation": 0
+    },
+    {
+      "position": 24,
+      "piece_id": 19,
+      "rotation": 2
+    },
+    {
+      "position": 25,
+      "piece_id": 13,
+      "rotation": 0
+    },
+    {
+      "position": 26,
+      "piece_id": 25,
+      "rotation": 3
+    },
+    {
+      "position": 27,
+      "piece_id": 28,
+      "rotation": 0
+    },
+    {
+      "position": 28,
+      "piece_id": 1,
+      "rotation": 0
+    },
+    {
+      "position": 29,
+      "piece_id": 34,
+      "rotation": 0
+    },
+    {
+      "position": 30,
+      "piece_id": 31,
+      "rotation": 3
+    },
+    {
+      "position": 31,
+      "piece_id": 30,
+      "rotation": 0
+    },
+    {
+      "position": 32,
+      "piece_id": 4,
+      "rotation": 3
+    },
+    {
+      "position": 33,
+      "piece_id": 21,
+      "rotation": 3
+    },
+    {
+      "position": 34,
+      "piece_id": 35,
+      "rotation": 0
+    }
+  ]
+}
