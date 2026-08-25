@@ -2,15 +2,20 @@
 
 CSE480 Machine Vision · Ain Shams University · Mechatronics Engineering
 
+**Students:**  
+Rana Ali - 17p8243  
+Judy Ehab Mohammed - 2300284  
+Mariam Ahmed Fouad Shehata Mohamed - 2301189
+
+**GitHub Repository:** [https://github.com/RanaAliOthman/github.com-Rana-Ali-17p8243-CSE480-Jigsaw-Puzzle-Reconstruction](https://github.com/RanaAliOthman/github.com-Rana-Ali-17p8243-CSE480-Jigsaw-Puzzle-Reconstruction)
+
 This report maps every requirement of the Milestone 1 brief to the code that
 fulfils it and to the measured result. Every requirement of Milestone 1 is now
 met; what is **not** achieved is a complete reconstruction, and §10 shows by
 measurement why. Milestone 2 remains substantially outstanding (§12). Every
 figure quoted is reproducible from the commands in §13.
 
-A typeset version is `report/milestone_1_report.pdf`; a web version with the
-figures is at
-<https://claude.ai/code/artifact/a42f5dbc-e48e-4d42-9d0f-b4c8bb7a7746>.
+A typeset version is `report/milestone_1_report.pdf`.
 
 ---
 

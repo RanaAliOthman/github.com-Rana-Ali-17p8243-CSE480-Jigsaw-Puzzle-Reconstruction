@@ -2,6 +2,13 @@
 
 CSE480 Machine Vision · Ain Shams University · Mechatronics Engineering
 
+**Students:**  
+Rana Ali - 17p8243  
+Judy Ehab Mohammed - 2300284  
+Mariam Ahmed Fouad Shehata Mohamed - 2301189
+
+**GitHub Repository:** [https://github.com/RanaAliOthman/github.com-Rana-Ali-17p8243-CSE480-Jigsaw-Puzzle-Reconstruction](https://github.com/RanaAliOthman/github.com-Rana-Ali-17p8243-CSE480-Jigsaw-Puzzle-Reconstruction)
+
 This report maps every requirement of the Milestone 2 brief to the code that
 exists and to what has actually been measured. **Milestone 2 is substantially
 outstanding**, and this document says so requirement by requirement rather than
